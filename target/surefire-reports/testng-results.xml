@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="150987" started-at="2022-02-01T10:28:20Z" finished-at="2022-02-01T10:30:51Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="createContactTest" class="com.vtiger.comcast.contactsTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactWithOrgNameTest()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="createContactWithOrgNameTest" class="com.vtiger.comcast.contactsTest.CreateContactTest"/>
+        <method signature="CreateOrgTest.createOrgIndustryTypeTest()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="createOrgIndustryTypeTest" class="com.vtiger.comcast.organizationTest.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="createOrgTest" class="com.vtiger.comcast.organizationTest.CreateOrgTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="createContactTest" class="com.vtiger.comcast.contactsTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactWithOrgNameTest()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="createContactWithOrgNameTest" class="com.vtiger.comcast.contactsTest.CreateContactTest"/>
+        <method signature="CreateOrgTest.createOrgIndustryTypeTest()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="createOrgIndustryTypeTest" class="com.vtiger.comcast.organizationTest.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="createOrgTest" class="com.vtiger.comcast.organizationTest.CreateOrgTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Command line test" duration-ms="150987" started-at="2022-02-01T10:28:20Z" finished-at="2022-02-01T10:30:51Z">
+      <class name="practice.DataDrivenTest">
+        <test-method status="PASS" signature="bookTicketTest(java.lang.String, java.lang.String, int)[pri:0, instance:practice.DataDrivenTest@51efea79]" name="bookTicketTest" duration-ms="0" started-at="2022-02-01T16:00:51Z" data-provider="dataProviderBookTicketTest" finished-at="2022-02-01T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chenni]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicketTest -->
+        <test-method status="PASS" signature="bookTicketTest(java.lang.String, java.lang.String, int)[pri:0, instance:practice.DataDrivenTest@51efea79]" name="bookTicketTest" duration-ms="0" started-at="2022-02-01T16:00:51Z" data-provider="dataProviderBookTicketTest" finished-at="2022-02-01T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manglore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicketTest -->
+        <test-method status="PASS" signature="bookTicketTest(java.lang.String, java.lang.String, int)[pri:0, instance:practice.DataDrivenTest@51efea79]" name="bookTicketTest" duration-ms="0" started-at="2022-02-01T16:00:51Z" data-provider="dataProviderBookTicketTest" finished-at="2022-02-01T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hassan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicketTest -->
+        <test-method status="PASS" signature="bookTicketTest(java.lang.String, java.lang.String, int)[pri:0, instance:practice.DataDrivenTest@51efea79]" name="bookTicketTest" duration-ms="0" started-at="2022-02-01T16:00:51Z" data-provider="dataProviderBookTicketTest" finished-at="2022-02-01T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicketTest -->
+        <test-method status="PASS" signature="bookTicketTest(java.lang.String, java.lang.String, int)[pri:0, instance:practice.DataDrivenTest@51efea79]" name="bookTicketTest" duration-ms="0" started-at="2022-02-01T16:00:51Z" data-provider="dataProviderBookTicketTest" finished-at="2022-02-01T16:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mysore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicketTest -->
+      </class> <!-- practice.DataDrivenTest -->
+      <class name="com.vtiger.comcast.organizationTest.CreateOrgTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="configBC" is-config="true" duration-ms="7519" started-at="2022-02-01T15:59:49Z" finished-at="2022-02-01T15:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="configBM" is-config="true" duration-ms="6589" started-at="2022-02-01T15:59:56Z" finished-at="2022-02-01T16:00:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgIndustryTypeTest()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="createOrgIndustryTypeTest" duration-ms="20102" started-at="2022-02-01T16:00:03Z" finished-at="2022-02-01T16:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgIndustryTypeTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="configAM" is-config="true" duration-ms="2500" started-at="2022-02-01T16:00:23Z" finished-at="2022-02-01T16:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="configBM" is-config="true" duration-ms="4392" started-at="2022-02-01T16:00:25Z" finished-at="2022-02-01T16:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="createOrgTest" duration-ms="18522" started-at="2022-02-01T16:00:30Z" finished-at="2022-02-01T16:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="configAM" is-config="true" duration-ms="2274" started-at="2022-02-01T16:00:48Z" finished-at="2022-02-01T16:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.comcast.organizationTest.CreateOrgTest@6d00a15d]" name="configAC" is-config="true" duration-ms="204" started-at="2022-02-01T16:00:51Z" finished-at="2022-02-01T16:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.comcast.organizationTest.CreateOrgTest -->
+      <class name="com.vtiger.comcast.contactsTest.CreateContactTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configBS" is-config="true" duration-ms="17" started-at="2022-02-01T15:58:20Z" finished-at="2022-02-01T15:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configBC" is-config="true" duration-ms="9628" started-at="2022-02-01T15:58:20Z" finished-at="2022-02-01T15:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configBM" is-config="true" duration-ms="6137" started-at="2022-02-01T15:58:30Z" finished-at="2022-02-01T15:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="createContactTest" duration-ms="23338" started-at="2022-02-01T15:58:36Z" finished-at="2022-02-01T15:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configAM" is-config="true" duration-ms="3348" started-at="2022-02-01T15:58:59Z" finished-at="2022-02-01T15:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configBM" is-config="true" duration-ms="4575" started-at="2022-02-01T15:59:02Z" finished-at="2022-02-01T15:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContactWithOrgNameTest()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="createContactWithOrgNameTest" duration-ms="38821" started-at="2022-02-01T15:59:07Z" finished-at="2022-02-01T15:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgNameTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configAM" is-config="true" duration-ms="2659" started-at="2022-02-01T15:59:46Z" finished-at="2022-02-01T15:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configAC" is-config="true" duration-ms="331" started-at="2022-02-01T15:59:48Z" finished-at="2022-02-01T15:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.vtiger.comcast.contactsTest.CreateContactTest@36d4b5c]" name="configAS" is-config="true" duration-ms="0" started-at="2022-02-01T16:00:51Z" finished-at="2022-02-01T16:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.vtiger.comcast.contactsTest.CreateContactTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

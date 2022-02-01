@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegionalRegressionTesting">
+	<test name="RegionalRegressionTest">
+		<classes>
+			<class name="com.vtiger.comcast.contactsTest.CreateContactTest">
+				<methods>
+					<include name="createContactWithOrgNameTest" />
+				</methods>
+			</class>
+			<class name="com.vtiger.comcast.organizationTest.CreateOrgTest">
+				<methods>
+					<include name="createOrgTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

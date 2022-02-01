@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowserTest]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestRunner-Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.vtiger.comcast.organizationTest.CreateOrgTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="createOrgTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createOrgIndustryTypeTest"/>
+        </methods>
+      </class> <!-- com.vtiger.comcast.organizationTest.CreateOrgTest -->
+    </classes>
+  </test> <!-- TestRunner-Firefox(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTest] -->

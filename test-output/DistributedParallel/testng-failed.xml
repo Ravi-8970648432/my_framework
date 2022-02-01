@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [DistributedParallel]" parallel="tests">
+  <test name="TestRunner-2(failed)" parallel="tests">
+    <classes>
+      <class name="com.vtiger.comcast.organizationTest.CreateOrgTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.vtiger.comcast.organizationTest.CreateOrgTest -->
+      <class name="com.vtiger.comcast.contactsTest.CreateContactTest">
+        <methods>
+          <include name="createContactTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createContactWithOrgNameTest"/>
+        </methods>
+      </class> <!-- com.vtiger.comcast.contactsTest.CreateContactTest -->
+    </classes>
+  </test> <!-- TestRunner-2(failed) -->
+  <test name="TestRunner-1(failed)" parallel="tests">
+    <classes>
+      <class name="com.vtiger.comcast.organizationTest.CreateOrgTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="createOrgTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.vtiger.comcast.organizationTest.CreateOrgTest -->
+      <class name="com.vtiger.comcast.contactsTest.CreateContactTest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.vtiger.comcast.contactsTest.CreateContactTest -->
+    </classes>
+  </test> <!-- TestRunner-1(failed) -->
+</suite> <!-- Failed suite [DistributedParallel] -->
